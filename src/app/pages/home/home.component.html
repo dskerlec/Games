@@ -1,1 +1,51 @@
-<p>home works!</p>
+<!-- TODO: should really break these up in different components? -->
+<div class="bg-gray-900 flex-1 flex items-center">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:text-center">
+      <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl lg:text-balance">Play more. Worry less</p>
+      <p class="mt-6 text-lg/8 text-gray-300">Take a break that actually recharges you. Our games help improve focus, problem-solving skills, and hand-eye coordination while giving your mind the reset it deserves.</p>
+    </div>
+    <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+      <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+        <a routerLink="/wordsearch" class="relative pl-16">
+          <dt class="text-base/7 font-semibold text-white">
+            <div class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-blue-400">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <line x1="3" y1="9" x2="21" y2="9"/>
+                <line x1="3" y1="15" x2="21" y2="15"/>
+                <line x1="9" y1="3" x2="9" y2="21"/>
+                <line x1="15" y1="3" x2="15" y2="21"/>
+                          
+                <circle cx="17" cy="17" r="3" stroke-width="2.5"/>
+                <line x1="19.5" y1="19.5" x2="22" y2="22" stroke-width="2.5"/>
+              </svg>
+            </div>
+            Word Search
+          </dt>
+          <dd class="mt-2 text-base/7 text-gray-400">Find hidden words in a grid of letters. Perfect for expanding vocabulary and pattern recognition while you relax and unwind.</dd>
+        </a>
+        <a routerLink="/simonsays" class="relative pl-16">
+          <dt class="text-base/7 font-semibold text-white">
+            <div class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-blue-400">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="12" y1="2" x2="12" y2="22"/>
+                  <line x1="2" y1="12" x2="22" y2="12"/>
+
+                  <circle cx="12" cy="12" r="2.5" fill="currentColor"/>
+
+                  <circle cx="8" cy="8" r="1.5" fill="currentColor" opacity="0.6"/>
+                  <circle cx="16" cy="8" r="1.5" fill="currentColor" opacity="0.6"/>
+                  <circle cx="8" cy="16" r="1.5" fill="currentColor" opacity="0.6"/>
+                  <circle cx="16" cy="16" r="1.5" fill="currentColor" opacity="0.6"/>
+              </svg>
+            </div>
+            Simon Says
+          </dt>
+          <dd class="mt-2 text-base/7 text-gray-400">Test your memory with this classic sequence game. Watch, remember, repeat—how long can you keep the pattern going?</dd>
+        </a>
+      </dl>
+    </div>
+  </div>
+</div>

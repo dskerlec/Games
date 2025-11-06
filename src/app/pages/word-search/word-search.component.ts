@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostBinding } from '@angular/core';
 
 @Component({
   selector: 'app-word-search',
@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './word-search.component.scss'
 })
 export class WordSearchComponent {
-
+  @HostBinding('class') class = 'flex-1 flex flex-col';
 }

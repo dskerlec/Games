@@ -2,12 +2,11 @@ import { Component, HostBinding } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
+  selector: 'app-not-found',
   imports: [RouterLink],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  templateUrl: './not-found.component.html',
+  styleUrl: './not-found.component.scss'
 })
-export class HomeComponent {
+export class NotFoundComponent {
   @HostBinding('class') class = 'flex-1 flex flex-col';
 }
