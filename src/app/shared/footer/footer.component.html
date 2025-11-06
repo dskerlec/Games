@@ -1,5 +1,16 @@
-<footer>
+<!-- <footer>
   <div class="footer-content">
     <p>&copy; {{ currentYear }} Dalton Skerlec. All rights reserved.</p>
+  </div>
+</footer> -->
+
+<footer class="bg-gray-100 border-t border-gray-200 mt-auto">
+  <div class="max-w-6xl mx-auto px-4 py-6 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-600">
+    <p>&copy; {{ currentYear }} Dalton Skerlec. All rights reserved.</p>
+    <nav class="flex space-x-4 mt-2 sm:mt-0">
+      <a routerLink="/" class="hover:text-gray-900">Home</a>
+      <a routerLink="/wordsearch" class="hover:text-gray-900">Word Search</a>
+      <a href="mailto:dskerlec@gmail.com" class="hover:text-gray-900">Contact</a>
+    </nav>
   </div>
 </footer>
